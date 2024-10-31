@@ -1,3 +1,7 @@
+October 31st, 2024: Kris Laferriere
+ - Fixed issue with creating layers such that the relevant rhoc value is used per layer. 
+
+
 Started with v10_z_A6-atmos-addsbackinRerad but made major modifications so that it works for thin lags
 
 Gets rid of extraneous, old parts of code too.

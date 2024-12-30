@@ -4,7 +4,7 @@ sm  = 1.9891e30;                 % Solar mass
 yearLength = 2*pi/sqrt(gc*sm/(s.a*au)^3);   % length of Mars year in seconds using Kepler's 3rd law
 EarthYearLength = 2*pi*sqrt(au^3/(gc*sm));   % Length of one Earth year in seconds
 
-TotalSurfSublimation = 0; %G_FFsubl;
+TotalSurfSublimation = TotalSublimation; %G_FFsubl;
 lagGrowthAnnConv = TotalSurfSublimation*s.iceDust /((1-s.iceDust)*(1-s.regolithPorosity));
 
 %% DIFFUSIVE LOSS THROUGH LAG
